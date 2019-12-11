@@ -40,7 +40,11 @@ filetype plugin indent on    " required
 syntax on
 colorscheme dracula
 set number
-set mouse=a
+set termguicolors
+filetype plugin indent on
+set tabstop=4
+set shiftwidth=4
+set expandtab
 
 " Keyboard Shortcuts
 map <C-o> :NERDTreeToggle %<CR>
