@@ -18,8 +18,6 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'tpope/vim-fugitive'
 " Syntax
 Plugin 'sheerun/vim-polyglot'
-" NERDTree
-Plugin 'scrooloose/nerdtree'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -45,6 +43,3 @@ filetype plugin indent on
 set tabstop=4
 set shiftwidth=4
 set expandtab
-
-" Keyboard Shortcuts
-map <C-o> :NERDTreeToggle %<CR>
